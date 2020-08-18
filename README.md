@@ -1,6 +1,6 @@
 # StockDashboard
 
-link: https://jkrol1.github.io/
+link: https://stock-dashboard-4559d.web.app/
 
 StockDashboard app is powered by data from https://financialmodelingprep.com/ API
 
@@ -19,8 +19,6 @@ The main features are:
   
 Application was developed according to the MVC pattern. BEM naming convention was used for CSS.
 
-src directory contains JavaScript code before bundling with Webpack and converting with Babel.
-
 # Technologies used
 
-ES6+ JavaScript, AJAX, plotly.js library, Webpack, Babel, HTML5, CSS3.
+ES6+ JavaScript, AJAX, plotly.js library, Webpack, HTML5, CSS3.
