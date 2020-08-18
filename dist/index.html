@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stock Dashboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre|Shadows+Into+Light|Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico">
+<link href="bundle.css" rel="stylesheet"></head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <form class="search">
+        <input type="text" class="search__input" placeholder="Company ticker symbol eg. MSFT ">
+        <button class="search__button"><img src="img/search-icon.svg" alt="Search icon" class="search__icon"></button>
+      </form>
+      <div class="favourites favourites--off">
+        <img src="img/favourites-dropdown-icon.svg" class="favourites__icon" alt="Favourites icon">
+        <ul class="favourites__list favourites__list--off">
+        </ul>
+      </div>
+    </header>
+    <main class="dashboard">
+      <div class="plot"></div>
+      <div class="company-overview">
+      </div>
+    </main>
+  </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
